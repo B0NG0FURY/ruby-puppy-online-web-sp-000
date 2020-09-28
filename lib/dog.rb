@@ -3,7 +3,7 @@ class Dog
   @@all = []
   attr_reader :name
   
-  def initiate(name)
+  def initialize(name)
     @name = name
     save
   end
